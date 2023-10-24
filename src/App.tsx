@@ -1,11 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TestContractButton from './components/TestContractButton';
 
 function App() {
+
   return (
+    
     <div className="App">
       <header className="App-header">
+        <div>
+          <h1>Test Contract</h1>
+          <TestContractButton/>
+        </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
